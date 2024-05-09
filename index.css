@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+   
+
+display: flex;
+flex-direction: column;
+column-gap: 50px;
+row-gap: 10px;
+justify-content: center;
+align-items: center;
+    
+}
+.img{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+img{
+    width: 400px;
+    height:400px;
+}
+
+.content{
+    margin-top: -20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+  width: 400px;
+}
+button{
+    text-align: center;
+}
